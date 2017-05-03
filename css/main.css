@@ -37,19 +37,23 @@ a:hover {
   color: #E95853;
 }
 
+/*Aqui comienza NAV*/
 .alignCenter{
   text-align: center;
-
 }
+
 header{
   position: fixed;
 }
+
 nav{
   background-color: white;
 }
+
 nav > a{
   font-weight: 700;
 }
+
 #inicio{
   clear: both;
   background-image: url(../assets/images/bg-home.jpg);
@@ -57,6 +61,7 @@ nav > a{
   background-size: cover;
   color: white;
 }
+
 #inicio > div > div > input{
   background-color: #2ECC71;
   border: none;
@@ -65,29 +70,35 @@ nav > a{
   margin: 20%;
   margin-bottom: 115px;
 }
+
 #inicio > div:first-child{
   padding: 50px;
   font-size: 20px;
 }
+
 #inicio > div:nth-child(2) {
   font-size: 40px;
   margin: none;
 }
+
 #inicio > div > div > input:hover{
   color: #E95853;
 }
+/*Aqui termina NAV*/
 
-/*seccion SERVICE*/
+/*Aqui comienza seccion SERVICE*/
 .service{
   background-color: #E95853;
   color:white;
 }
+
 .imagenesService{
   height: 200px;
   width: 200px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 .textitos{
   list-style: none;
   font-size:12px;
@@ -96,16 +107,22 @@ nav > a{
 li{
   padding: 5px;
 }
+/*Aqui termina seccion SERVICE*/
 
+/*No hay CSS para seccion WORK*/
+
+/*Aqui comienza seccion CATALOGO*/
 .tamProyecto{
   font-size:13px;
   font-weight: bold;
   text-align: center;
   padding: 15px;
 }
+
 .rellenoFila{
   padding: 30px;
 }
+
 #fondoModal{
   display: none;
   padding: 70px;
@@ -117,16 +134,19 @@ li{
   background:rgba(15, 227, 154, .7);
   z-index: 1;
 }
+
 .imgModal{
   margin: auto;
   width: 50%;
   border: 10px solid white;
   border-radius: 5px;
 }
+
 .img:hover{
   opacity: 0.7;
   cursor: pointer;
 }
+
 .cerrar{
   position: absolute;
   top: 65px;
@@ -137,6 +157,9 @@ li{
   z-index: 2;
   cursor: pointer;
 }
+/*Aqui termina seccion CATALOGO*/
+
+/*Aqui comienza el FOOTER*/
 
 #piecito {
   background-color: #E95853;

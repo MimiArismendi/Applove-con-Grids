@@ -17,7 +17,7 @@
 
 .container{
   width: 100%;
-  /*max-width: 1200px; esto lo comentamos porque algunas compus tienen mas de 1200px en su pantalla*/
+  /*max-width: 1200px; esto lo comentamos porque algunas compus tienen mas de 1200px en su pantalla (ancho maximo de las columnas (max.whidt))*/
   margin: 0px ;
 }
 
