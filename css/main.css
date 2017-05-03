@@ -17,6 +17,7 @@
 
 body {
   /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -34,4 +35,8 @@ a {
 
 a:hover {
   color: #E95853;
+}
+
+#piecito {
+  background-color: #F7D097;
 }
