@@ -17,8 +17,8 @@
 
 .container{
   width: 100%;
-  max-width: 1200px;
-  margin: 0px auto;
+  /*max-width: 1200px; esto lo comentamos porque algunas compus tienen mas de 1200px en su pantalla*/
+  margin: 0px ;
 }
 
 .row:before, .row:after{
@@ -74,7 +74,7 @@
   width: 91.666%;
 }
 
-.col{
+.col-12{
   width: 100%;
 }
 
